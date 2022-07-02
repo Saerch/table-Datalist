@@ -1,0 +1,98 @@
+.table {
+    padding: 20px;
+    width: 80%;
+    margin: 30px auto;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    color: hsl(219deg 6% 42%);
+  }
+  
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #cecbcb;
+  }
+
+  .user-search {
+    margin: 20px 0px;
+    display: flex;
+  }
+  
+  .user-search input {
+    padding: 10px;
+    width: 30%;
+    outline: none;
+    border: 1px solid #dddddd;
+  }
+  
+  .user-search button {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+  }
+  
+  /* th-sorting */
+  .th-sorting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .th-sort-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  /* srt-icon */
+  .srt-icon {
+    cursor: pointer;
+  }
+  
+  /* pagination try */
+  .pageNumbers {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+  
+  }
+  
+  .pageNumbers li {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+  
+  }
+  
+  .pageNumbers li.active {
+    background-color: white;
+    color: black;
+    border: 2px solid hsl(200deg 100% 70%);
+  }
+  
+  .pageNumbers li button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .pageNumbers li button:focus {
+    outline: none;
+  }

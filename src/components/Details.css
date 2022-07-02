@@ -1,0 +1,24 @@
+.singleData {
+    width: 70%;
+    margin: 50px auto !important;
+}
+
+.details p {
+    padding: 10px;
+    padding-left: 63px;
+    color: hsl(219deg 6% 42%);
+}
+
+.details p::after {
+    content: " ";
+    margin-top: 5px;
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: #ddd;
+}
+.singleHeading{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
